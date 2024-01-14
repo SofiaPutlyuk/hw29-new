@@ -1,0 +1,67 @@
+
+.banner {
+    width: 1550px;
+ 
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+&__box{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+   justify-content: center;
+    margin-left: 64px;
+}
+&__text{
+    width: 263px;
+    height: 60px;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(169, 59, 89, 1);
+   
+}
+&__subtitle{
+    margin-left: 110px;
+    width: 360px;
+    height: 60px;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+&__note{
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(245, 235, 235, 1);
+}
+&__button{
+    width: 437px;
+    height: 62px;
+    border-radius: none;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 15px;
+    gap: 16px;
+    background: rgba(169, 59, 89, 1);
+    border: none;
+    color: rgba(245, 235, 235, 1);
+    
+}
+
+}
+
+
+
+
+

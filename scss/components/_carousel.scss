@@ -1,0 +1,22 @@
+.carousel-indicators [data-bs-target]{
+background-color: green;
+}
+/*.carousel-item.active{
+display: flex;
+justify-content: space-evenly;
+}*/
+.photo-carousel{
+width: 313px;
+height: 358px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+display: flex;
+gap: 30px;
+}
+.carousel.pointer-event{
+margin-bottom: 100px;
+}
+.carousel-control-prev-icon {
+color:  rgba(176, 46, 81, 1);
+
+}
