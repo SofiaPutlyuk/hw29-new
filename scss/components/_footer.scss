@@ -1,0 +1,27 @@
+.footer{
+display: flex;
+justify-content: space-evenly;
+width: 1439px;
+height: 346px;
+align-items: center;
+&__box{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 80px;
+}
+&__icon{
+    display: flex;
+justify-content: center;
+}
+&__text{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(245, 235, 235, 1);
+  
+}
+}
